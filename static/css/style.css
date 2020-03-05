@@ -1,0 +1,54 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  height: 800px;
+}
+
+html,
+body,
+#map {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  color: #555;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .Year {
+  color: #006400;
+  font-size: 15px;
+  text-align: center;
+}
+
+.legend .Magnitude-f0 {
+  color: #FFDEAD;
+}
+
+.legend .Magnitude-f1 {
+  color: #FFD700;
+}
+
+.legend .Magnitude-f2 {
+  color: #FF7F50;
+}
+
+.legend .Magnitude-f3 {
+  color: #D2691E;
+}
+
+.legend .Magnitude-f4 {
+  color: #FF0000;
+}
